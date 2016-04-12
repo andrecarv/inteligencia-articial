@@ -32,9 +32,10 @@ class Game(object):
             player = self.players.pop(0)
         # escrever qlq merda sobre vitoria
         if player == 'White':
-            print "Voce ganhou %s, so pq o outro eh black." % player
+            print "Voce ganhou Walter %s. Yeah, SCIENCE!." % player
         else:
-            print "Voce ganhou %s, aposto que usou cotas" % player
+            print "Voce ganhou %s Power, OH OH WHITE MAN CANT JUMP." % player
+            
     def get_move(self, player):
         move = raw_input("E a vez do jogador %s, digite sua jogada em coordenadas x y (valores entre 1 e 15)\n" % player)
         x, y = move.split(' ')
