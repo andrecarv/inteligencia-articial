@@ -29,3 +29,5 @@ class Position(object):
             return self.y
         elif index == 'h' or index == 'H':
             return self.x
+        
+    
